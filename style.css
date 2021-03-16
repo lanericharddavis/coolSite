@@ -1,0 +1,54 @@
+
+html, body{
+  display: flexbox;
+  height: 100%;
+}
+
+header, footer{
+  background-color: #1b1d96;
+  padding:5vw;
+  color:white;
+  text-align:center;
+  font-size:xx-large;
+}
+
+header{
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+footer{
+  
+  padding-bottom: 3rem;
+}
+
+.container{
+  display:flex;
+}
+
+h1, .spacer-line{
+  text-align: center;
+}
+
+.body-text{
+  order:1;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.sidebar{
+  padding-top:5rem;
+  order:2;
+}
+
+.spacer-line{
+  background-color: lightblue;
+  width: 90%;
+  padding: 1rem;
+}
+
+img{
+  width: 100%;
+  max-width: 200px;
+  min-width: 200px;
+}
