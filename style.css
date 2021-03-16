@@ -1,7 +1,18 @@
 
 html, body{
-  display: flexbox;
+  display: flex;
+  flex-direction:column;
   height: 100%;
+}
+
+.main-page{
+  flex: 1;
+}
+
+.theFooter{
+  
+  flex: 0;
+  margin-top:auto;
 }
 
 header, footer{
@@ -13,12 +24,12 @@ header, footer{
 }
 
 header{
+  padding-top: 2rem;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 
 footer{
-  
   padding-bottom: 3rem;
 }
 
@@ -32,12 +43,13 @@ h1, .spacer-line{
 
 .body-text{
   order:1;
-  padding-left: 3rem;
+  padding-left: 10rem;
   padding-right: 3rem;
 }
 
 .sidebar{
   padding-top:5rem;
+  padding-right:1rem;
   order:2;
 }
 
